@@ -1,0 +1,13 @@
+{
+  "source_table": "public.antenna_purchases",
+  "source_query": "",
+  "primary_key": "order_id",
+  "updated_at_column": "updated_at",
+  "jdbc_connection_name": "leo-postgres",
+  "s3_output_bucket": "leo-etl-data",
+  "glue_database": "leo",
+  "glue_table": "antenna_purchases",
+  "redshift_table": "public.antenna_purchases",
+  "redshift_iam_role": "arn:aws:iam::111111111111:role/LeoRedshiftCopyRole",
+  "redshift_temp_dir": "s3://leo-etl-data/redshift-temp/"
+}
